@@ -1,0 +1,8 @@
+{
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build",
+    "--header-insertion=never",
+    "--all-scopes-completion=false",
+    "--pch-storage=memory"
+  ]
+}
